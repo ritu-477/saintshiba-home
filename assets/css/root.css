@@ -1,0 +1,84 @@
+:root {
+    /* font-size */
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 22px;
+    --fs-xl: 36px;
+    --fs-xxl: 48px;
+    --fs-xxxl: 96px;
+    /* font-color */
+    --fc-orange: #f06500;
+    --fc-light-orange: #FFA800;
+    --fc-black: #0c0b0b;
+    --fc-light-gray: #b6b6b6;
+    --fc-light-white: #afb5c0;
+    --fc-white: #ffffff;
+    --fc-primary-orange: #FFECEC;
+    --fc-off-white: #f8f8f8;
+    --fc-primary-white: #fdfdfd;
+    --fc-primary-gray: #dddddd;
+    --fc-of-white: #dde0e4;
+}
+
+@media(max-width:766.99px) {
+
+    .heading-1 {
+        --fs-xxxl: 80px;
+    }
+
+    .heading-2 {
+        --fs-xxl: 40px;
+
+    }
+
+    .text {
+        --fs-lg: 18px;
+    }
+
+    .short-text {
+        --fs-md: 16px;
+    }
+}
+
+@media(min-width:320px) and (max-width:575.98px) {
+    .heading-1 {
+        --fs-xxxl: 48px;
+    }
+
+    .heading-2 {
+        --fs-xxl: 21px;
+
+    }
+
+    .para-1 {
+        --fs-lg: 16px;
+    }
+
+    .para-2 {
+        --fs-md: 16px;
+
+    }
+
+    .text {
+        --fs-lg: 16px;
+    }
+
+    .short-text {
+        --fs-md: 14px;
+    }
+
+    .counting {
+        --fs-lg: 14px;
+
+    }
+
+    .heading {
+        --fs-xxl: 38px;
+    }
+
+    .shiba {
+        --fs-xxl: 38px;
+    }
+
+}
