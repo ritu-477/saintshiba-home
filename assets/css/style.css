@@ -7,16 +7,16 @@
     list-style-type: none;
     text-decoration: none !important;
     scroll-behavior: smooth;
-    /* outline: 1px solid red; */
+    /* outline: 1px solid red;  */
 }
-.curser{
+
+.curser {
     cursor: pointer;
 }
 
 
 .nav-box {
-
-    background-color: #070401;
+    background-color: var(--fc-black100);
     width: 100%;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -46,7 +46,7 @@
 }
 
 .bg-color {
-    background-color: #070401;
+    background-color: var(--fc-black100);
 }
 
 .heading {
@@ -69,7 +69,7 @@
 .home {
 
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: var(--fs-md);
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0em;
@@ -78,10 +78,8 @@
 }
 
 .connect-wallet {
-
-    font-family: 'Poppins',
-        sans-serif;
-    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
     font-weight: 600;
     line-height: 32px;
     letter-spacing: 0em;
@@ -89,16 +87,14 @@
     color: var(--fc-white);
     padding: 7px 23px 7px 23px;
     width: (188px);
-    height: Hug (46px);
+    height: (46px);
     top: 27px;
     left: 1432px;
     border: none;
     border-radius: 23.5px;
     gap: 10px;
-    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
-    ;
+    background: linear-gradient(90deg, var(--fc-light-orange) 0%, var(--fc-orange) 100%);
     white-space: nowrap;
-    ;
 }
 
 .connect-wallet:hover {
@@ -109,6 +105,9 @@
 
 .bg-image {
     background-image: url(../images/herosectiongroupimage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .heading-1 {
@@ -123,7 +122,7 @@
 
 .para-1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 22px;
+    font-size: var(--fs-lg);
     font-weight: 400;
     line-height: 33px;
     color: var(--fc-white);
@@ -137,7 +136,7 @@
 
 .btn-wallet {
     font-family: 'Poppins', sans-serif;
-    font-size: 22px;
+    font-size: var(--fs-lg);
     font-weight: 600;
     line-height: 33px;
     color: var(--fc-white);
@@ -147,7 +146,7 @@
     left: 300px;
     padding: 12px 32px 12px 32px;
     border-radius: 33px;
-    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    background: linear-gradient(90deg, var(--fc-light-orange) 0%, var(--fc-orange) 100%);
     border: none;
 
 }
@@ -176,7 +175,7 @@
     height: (46px);
     padding: 7px 23px 7px 23px;
     border-radius: 23.5px;
-    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    background: linear-gradient(90deg, var(--fc-light-orange) 0%, var(--fc-orange) 100%);
     color: var(--fc-white);
     border: none;
     margin-top: 32px;
@@ -188,24 +187,17 @@
 }
 
 .card-box {
-
     top: 886px;
     left: 300px;
     padding: 24px;
     border-radius: 10px;
-    border: 1px;
-    background: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%),
-        linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
-    border: 1px solid;
-
-    border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    border: 1px solid var(--fc-light-gray500);
     transform: translateY(-28%);
-
 
 }
 
 .heading-2 {
-
     font-family: 'Poppins', sans-serif;
     font-size: var(--fs-xxl);
     font-weight: 600;
@@ -213,18 +205,15 @@
     color: var(--fc-white);
     padding-bottom: 24px;
 
-
 }
 
 .para-2 {
-
     font-family: 'Poppins', sans-serif;
     font-size: var(--fs-md);
     font-weight: 400;
     line-height: 32px;
     color: var(--fc-light-gray);
     max-width: 1272px;
-
 }
 
 .max-w {
@@ -235,9 +224,27 @@
     max-width: 551px;
 }
 
+.img-absolute5 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.img-absolute6 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.img-absolute7 {
+    position: absolute;
+    right: 24%;
+    top: 10%;
+}
+
 /* ..................................overflow-sec ......................................................................*/
 .bg-color-2 {
-    background-color: #1d1a1a;
+    background-color: var(--fc-black400);
 }
 
 .box-1 {
@@ -245,12 +252,13 @@
     min-height: 92px;
     border-radius: 46px;
     background-color: var(--fc-black);
-    margin-top: 48px;
+
+
     padding: 13px 13px 14px;
 }
 
 .box-1:hover .circle {
-    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    background: linear-gradient(90deg, var(--fc-light-orange) 0%, var(--fc-orange) 100%);
     color: var(--fc-white);
 }
 
@@ -285,7 +293,6 @@
 }
 
 .counting {
-
     font-family: 'Poppins', sans-serif;
     font-size: var(--fs-lg);
     font-weight: 600;
@@ -297,8 +304,6 @@
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
-
 
 .img-w-1 {
     max-width: 1056px;
@@ -313,11 +318,10 @@
 .box-2 {
 
     border-radius: 10px;
-    border: 1px;
+    border: 1px solid var(--fc-light-gray200);
     padding: 16px 120px 20px 22px;
-    background: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%),
-        linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
-    ;
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+
 }
 
 .text-1 {
@@ -339,9 +343,8 @@
 }
 
 .counting-1 {
-
     font-family: 'Poppins', sans-serif;
-    font-size: 28px;
+    font-size: var(--fs-l);
     font-weight: 600;
     line-height: 42px;
     color: var(--fc-white);
@@ -366,18 +369,16 @@
 }
 
 .box-3 {
+
     margin-top: 22px;
     padding: 66px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border: solid 1px;
+    border: solid 1px var(--fc-light-gray300);
     border-color: #464646;
-    background: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%),
-        linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
-    ;
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     border-bottom: none;
 }
-
 
 .token {
 
@@ -402,17 +403,13 @@
     padding-bottom: 28px;
     padding-right: 95px;
 
-
 }
 
 .box-4 {
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px;
-    border: solid 1px;
-    border-color: #464646;
-    background: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%),
-        linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
-    ;
+    border: solid 1px var(--fc-light-gray400);
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     border-top: none;
 
 }
@@ -454,7 +451,6 @@
 
 /* Container around content */
 .container-2 {
-
     position: relative;
     background-color: inherit;
     width: 50%;
@@ -468,9 +464,8 @@
     width: 35px;
     height: 35px;
     right: -18px;
-    background: linear-gradient(180deg, #FFA800 0%, #F06500 100%);
-
-    top: 15px;
+    background: linear-gradient(90deg, var(--fc-light-orange) 0%, var(--fc-orange) 100%);
+    top: 11px;
     border-radius: 50%;
     z-index: 1;
 }
@@ -503,58 +498,92 @@
     padding-left: 95px;
 }
 
+.img-absolute-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.img-absolute-4 {
+    position: absolute;
+    top: -5%;
+    right: 0;
+}
+
+.img-asolute5 {
+    position: absolute;
+    top: -18%;
+    right: 0;
+}
+
 /* .................................................................accordion............................... */
 .accordion-button:not(.collapsed)::after {
-    background-image: url(../images/arrow.png);
+    background-image: url(../images/downarrow.png);
 }
 
 .accordion-button::after {
-    background-image: url(../images/arrow.png);
+    background-image: url(../images/downarrow.png);
 }
 
 .accordion {
-    max-width: 922px;
-    margin: auto;
     --bs-accordion-btn-focus-box-shadow: none !important;
 }
 
+
 .accordion-button:not(.collapsed) {
-    background-color: #151414 !important;
-    color: var(--fc-white)e !important;
+    background-color: var(--fc-black200);
     box-shadow: none !important;
+    color: var(--fc-white);
 }
 
 .accordion-item {
-    background-color: #181717;
-    border: 1px solid #454444;
+    background-color: var(--fc-black200);
+    border: 1px solid var(--fc-brown100);
     border-radius: 10px;
     box-shadow: none !important;
+    margin-bottom: 10px;
 
 }
 
 .accordion-button {
-    background-color: #141313;
+    background-color: var(--fc-brown200);
     color: var(--fc-white);
     font-family: 'Poppins', sans-serif;
     font-size: var(--fs-lg);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    border-radius: 12px;
 
 }
 
 .accordion-body {
-    color: #b9b9b9;
-    ;
+    color: var(--fc-light-gray100);
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs-lg);
+    font-size: var(--fs-md);
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
 }
 
+.img-absolute1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.img-absolute2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .pt-120 {
     padding-top: 120px;
+}
+
+.pb-70 {
+    padding-bottom: 450px;
 }
 
 @media(max-width:1200px) {
@@ -652,6 +681,26 @@
         padding-right: 0;
     }
 
+    .img-absolute-3 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .img-absolute-4 {
+        position: absolute;
+        top: -5%;
+        right: 0;
+        z-index: -1;
+    }
+
+    .img-asolute5 {
+        position: absolute;
+        top: -18%;
+        right: 0;
+        z-index: -1;
+    }
 
 }
 

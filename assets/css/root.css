@@ -4,6 +4,7 @@
     --fs-sm: 16px;
     --fs-md: 18px;
     --fs-lg: 22px;
+    --fs-l: 28px;
     --fs-xl: 36px;
     --fs-xxl: 48px;
     --fs-xxxl: 96px;
@@ -19,6 +20,19 @@
     --fc-primary-white: #fdfdfd;
     --fc-primary-gray: #dddddd;
     --fc-of-white: #dde0e4;
+    --fc-black100: #070401;
+    --fc-light-gray100: #464646;
+    --fc-black200: #151414;
+    --fc-black300: #181717;
+    --fc-black400: #1d1a1a;
+    --fc-brown100: #454444;
+    --fc-brown200: #141313;
+    --fc-light-gray100: #b9b9b9;
+    --fc-light-gray200: #4e4e4e;
+    --fc-light-gray300: #474646;
+    --fc-light-gray400: #454444;
+    --fc-light-gray500: #454545;
+
 }
 
 @media(max-width:766.99px) {
@@ -37,6 +51,14 @@
     }
 
     .short-text {
+        --fs-md: 16px;
+    }
+
+    .accordion-button {
+        --fs-lg: 18px;
+    }
+
+    .accordion-body {
         --fs-md: 16px;
     }
 }
@@ -79,6 +101,14 @@
 
     .shiba {
         --fs-xxl: 38px;
+    }
+
+    .accordion-button {
+        --fs-lg: 16px;
+    }
+
+    .accordion-body {
+        --fs-md: 14px;
     }
 
 }
